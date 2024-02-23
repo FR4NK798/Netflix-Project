@@ -43,3 +43,15 @@ nav, body{
     background-color: #666666;
     border: none;
 }
+
+#maturity{
+    background-color: #333333;
+    border: none;
+}
+
+.custom-button{
+    border: solid 1px;
+    border-color: #7c7c7c;
+    background-color: transparent;
+    color: #7c7c7c;
+}
