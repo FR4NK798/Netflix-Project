@@ -1,0 +1,45 @@
+/* colore nav bar */
+nav, body{
+    background-color: #141414;
+}
+
+.profilePagIndex, .search{
+    border: none;
+}
+
+.collapse, .collapsing{
+    width: 10em;
+}
+.avatar, .search{
+    background-color: transparent;
+}
+
+.down:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.dropdown button{
+    border-radius: 0px;
+    background-color: black;
+}
+
+.dropdown button::after{
+    margin-left: 2rem;
+}
+
+.grouping
+{
+
+    border-radius: 0px;
+}
+
+.profile{
+    background: linear-gradient(180deg, black, #141414);
+}
+
+.profNick{
+    border-radius: 0px;
+    background-color: #666666;
+    border: none;
+}
