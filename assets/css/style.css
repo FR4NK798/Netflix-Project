@@ -36,7 +36,7 @@ nav, body{
 }
 
 .profile{
-    background: linear-gradient(180deg, black, #141414);
+    background: linear-gradient(180deg, black, #141414, #141414, #141414, #141414, #141414, #141414);
 }
 
 .profNick{
@@ -55,8 +55,36 @@ nav, body{
     border-color: #7c7c7c;
     background-color: transparent;
     color: #7c7c7c;
+
+    padding-block: 0.5em;
+    padding-inline: 2em;
 }
 
 .profile .dropdown button::after {
     margin-left: 1em;
+}
+
+.border-bottom, .border-top{
+    --bs-border-opacity: aliceblue;
+
+}
+
+label img{
+    position: absolute;
+    height: 0.5em;
+    inset: 0;
+    margin: auto;
+}
+
+.footer{
+    color: grey;
+    font-size:x-small;
+}
+
+/* .footer .row{
+    margin-inline: 27em;
+} */
+
+.footer p{
+    width: 15em;
 }

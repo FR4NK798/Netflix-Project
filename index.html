@@ -13,8 +13,8 @@
     <title>Netflix</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg my-2" data-bs-theme="dark" style="height: 2em; font-size: x-small">
+      <div class="container px-0">
         <a class="navbar-brand" href="#">
           <img src="./assets/netflix_logo.png" alt="" style="height: 1.5em" />
         </a>
@@ -48,7 +48,7 @@
             </li>
           </ul>
           <div class="d-flex justify-content-middle align-items-center">
-            <p>
+            <p class="mb-0">
               <button
                 class="search"
                 type="button"
@@ -68,25 +68,25 @@
                 </div>
               </div>
             </div>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Kids</a>
               </li>
               <li>
                 <a class="navbar-brand" href="#">
-                  <img src="./assets/bell-fill.svg" alt="Bootstrap" width="30" height="24" />
+                  <img src="./assets/bell-fill.svg" alt="Bootstrap" width="15" />
                 </a>
               </li>
               <li>
                 <button
-                  class="navbar-brand profilePagIndex px-0 avatar"
+                  class="navbar-brand profilePagIndex px-0 avatar me-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseExample"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  <img src="./assets/avatar.png" alt="Bootstrap" width="40" height="40" class="img-fluid" />
+                  <img src="./assets/avatar.png" alt="Bootstrap" width="25" height="25" class="img-fluid" />
                   <img src="./assets/caret-down-fill.svg" alt="" class="down" />
                 </button>
                 <div class="collapse" id="collapseExample">
@@ -102,15 +102,16 @@
       </div>
     </nav>
 
-    <div class="container d-flex text-light justify-content-between">
+    <div class="container d-flex text-light justify-content-between gap-5 ps-0 mt-3" style="margin-inline: 2.3em">
       <div class="d-flex align-items-center">
-        <h1 class="h1">TV Shows</h1>
+        <h1 class="h1 fs-5">TV Shows</h1>
         <div class="dropdown">
           <button
             class="btn btn-secondary dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
+            style="font-size: x-small"
           >
             Genres
           </button>
@@ -124,20 +125,24 @@
       <div>
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
           <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked />
-          <label class="btn btn-outline grouping" for="btnradio1">
+          <label class="btn btn-outline grouping" for="btnradio1" style="height: 1.2em">
             <img src="./assets/list-nested.svg" alt="" />
           </label>
 
           <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-          <label class="btn btn-outline-light grouping" for="btnradio2">
+          <label class="btn btn-outline-light grouping disabled" for="btnradio2" style="height: 1.2em">
             <img src="./assets/Group 179.svg" alt="" />
           </label>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="fs-4 text-light">Trending Now</h2>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col px-0">
+          <h2 class="text-light" style="font-size: medium">Trending Now</h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-2 gx-1">
           <img src="./assets/media/media0.webp" alt="" class="img-fluid" />
@@ -160,8 +165,12 @@
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="fs-4 text-light">Watch It Again</h2>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col px-0">
+          <h2 class="text-light" style="font-size: medium">Watch It Again</h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-2 gx-1">
           <img src="./assets/media/media6.jpg" alt="" class="img-fluid" />
@@ -184,8 +193,12 @@
       </div>
     </div>
 
-    <div class="container">
-      <h2 class="fs-4 text-light">New Releases</h2>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col px-0">
+          <h2 class="text-light" style="font-size: medium">New Releases</h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-2 gx-1">
           <img src="./assets/media/media12.jpg" alt="" class="img-fluid" />
@@ -208,31 +221,37 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container footer">
       <div class="row">
-        <div class="col">
+        <div class="col d-flex">
           <img src="./assets/facebook.svg" alt="" />
           <img src="./assets/instagram.svg" alt="" />
           <img src="./assets/twitter.svg" alt="" />
           <img src="./assets/youtube.svg" alt="" />
         </div>
         <div class="row">
-          <div class="col">Audio and Subtitles</div>
-          <div class="col">Audio Description</div>
-          <div class="col">Help Center</div>
-          <div class="col">Gift Card</div>
+          <div class="col d-flex justify-content-center">
+            <p>Audio and Subtitles</p>
+            <p>Audio Description</p>
+            <p>Help Center</p>
+            <p>Gift Card</p>
+          </div>
         </div>
         <div class="row">
-          <div class="col">Media Center</div>
-          <div class="col">Investor Relations</div>
-          <div class="col">Jobs</div>
-          <div class="col">Terms of Use</div>
+          <div class="col d-flex justify-content-center">
+            <p>Media Center</p>
+            <p>Investor Relations</p>
+            <p>Jobs</p>
+            <p>Terms of Use</p>
+          </div>
         </div>
         <div class="row">
-          <div class="col">Privacy</div>
-          <div class="col">Legal Notices</div>
-          <div class="col">Cookie Preferencies</div>
-          <div class="col">Corporation Information</div>
+          <div class="col d-flex justify-content-center">
+            <p>Privacy</p>
+            <p>Legal Notices</p>
+            <p>Cookie Preferencies</p>
+            <p>Corporation Information</p>
+          </div>
         </div>
         <div class="row">
           <div class="col">Contact Us</div>

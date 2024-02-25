@@ -14,18 +14,18 @@
   </head>
   <body>
     <div class="profile">
-      <div class="container-fluid pt-2">
+      <div class="container-fluid pt-2 pb-5">
         <img src="./assets/netflix_logo.png" alt="" style="height: 3em" />
       </div>
 
       <div class="container">
-        <div class="row border-bottom border-secondary" style="margin-inline-start: 22.5em; margin-inline-end: 13.5em">
+        <div class="row border-bottom border-secondary" style="margin-inline-start: 22.5em; margin-inline-end: 14em">
           <div class="col px-0">
             <h1 class="h1 text-light" style="font-size: 3em">Edit Profile</h1>
           </div>
         </div>
-        <div class="row align-items-end" style="margin-inline-start: 22.5em; margin-inline-end: 13.5em">
-          <div class="col-2 px-0" style="width: 7.5em">
+        <div class="row align-items-end" style="margin-inline-start: 22.5em; margin-inline-end: 14em">
+          <div class="col-2 px-0" style="width: 7.5em; margin-bottom: 1.5em">
             <img src="./assets/avatar.png" alt="" style="height: 100%; width: 100%; object-fit: contain" />
           </div>
           <div class="col">
@@ -43,7 +43,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col">
+              <div class="col border-bottom border-secondary" style="padding-bottom: 1.5em">
                 <div class="dropdown d-flex flex-column">
                   <label for="dropdown" class="form-label" style="color: #c6c6c1">Language</label>
                   <button
@@ -66,11 +66,13 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6"><h3 class="fs-4 text-secondary">Maturity Settings:</h3></div>
+        <div class="row mt-3" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col offset-3">
+            <h3 class="fs-5 text-secondary">Maturity Settings:</h3>
+          </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
+        <div class="row" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col offset-3">
             <div class="dropdown">
               <button
                 class="btn btn-secondary"
@@ -89,35 +91,42 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
-            <p class="fs-5 text-light">Show titles of all maturity ratings for this profile.</p>
+        <div class="row mt-2" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col offset-3">
+            <p class="fs-6 text-light">Show titles of all maturity ratings for this profile.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
-            <button class="custom-button">EDIT</button>
+        <div class="row" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col offset-3 border-bottom border-secondary pb-4">
+            <button class="custom-button" style="padding-inline: 1.5em; padding-block: 0.5em">EDIT</button>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
+        <div class="row row mt-4" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col offset-3">
             <h3 class="fs-4 text-secondary">Autoplay Controls</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
+        <div class="row mb-4" style="margin-inline-start: 21.5em; margin-inline-end: 14em">
+          <div class="col-12 offset-3 mb-2">
             <input type="checkbox" autocomplete="off" />
-            <label for="btncheck2">Autoplay netx episode in a series on all devices.</label>
+            <label for="btncheck2" style="color: #c6c6c1">Autoplay netx episode in a series on all devices.</label>
           </div>
-          <div class="col offset-6">
+          <div class="col-12 offset-3">
             <input type="checkbox" autocomplete="off" />
-            <label for="btncheck2">Autoplay previews while browsing on all devices.</label>
+            <label for="btncheck2" style="color: #c6c6c1">Autoplay previews while browsing on all devices.</label>
           </div>
         </div>
-        <div class="row">
-          <div class="col offset-6">
-            <button type="button" class="custom-button">SAVE</button>
+        <div
+          class="row pt-4 border-top border-secondary mb-5"
+          style="margin-inline-start: 21.5em; margin-inline-end: 14em"
+        >
+          <div class="col-3">
+            <button type="button" class="custom-button" style="background-color: white; color: black">SAVE</button>
+          </div>
+          <div class="col-3">
             <button type="button" class="custom-button">CANCEL</button>
+          </div>
+          <div class="col-6">
             <button type="button" class="custom-button">DELETE PROFILE</button>
           </div>
         </div>
